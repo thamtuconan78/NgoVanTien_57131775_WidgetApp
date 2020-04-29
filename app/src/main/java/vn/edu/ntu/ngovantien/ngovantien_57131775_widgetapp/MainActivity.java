@@ -69,7 +69,8 @@ public class MainActivity extends AppCompatActivity {
                   check5 = cb5.getText().toString();
              }
              String sothichkhac = edt3.getText().toString();
-             Toast.makeText(MainActivity.this, name +"\n" +"ngay sinh" + datetime + "Giới tính " + rdg.getText().toString() +"\n"+check1+"\n"+check2+"\n"+check3+"\n"+check4+"\n"+check5+"\n"+sothichkhac, Toast.LENGTH_SHORT).show();
+             Toast.makeText(MainActivity.this, name +"\n" +"ngay sinh" + datetime +"\n" + "Giới tính " + rdg.getText().toString() +"\n"+"Sở thích : "+check1+","+check2+","+check3+","+check4+","+check5+","+sothichkhac, Toast.LENGTH_SHORT).show();
+
          }
      });
     }
