@@ -55,19 +55,19 @@ public class MainActivity extends AppCompatActivity {
              String check5 = "";
              if(cb1.isChecked()) {
                    check1 = cb1.getText().toString();
-             }
+             }else check1 = "";
              if(cb2.isChecked()) {
                   check2 = cb2.getText().toString();
-             }
-             if(cb1.isChecked()) {
+             } else check3 = "";
+             if(cb3.isChecked()) {
                  check3 = cb3.getText().toString();
-             }
-             if(cb1.isChecked()) {
+             } else check3 = "";
+             if(cb4.isChecked()) {
                  check4 = cb4.getText().toString();
-             }
-             if(cb1.isChecked()) {
+             } else check4 = "";
+             if(cb5.isChecked()) {
                   check5 = cb5.getText().toString();
-             }
+             } else check5 = "";
              String sothichkhac = edt3.getText().toString();
              Toast.makeText(MainActivity.this, name +"\n" +"ngay sinh" + datetime +"\n" + "Giới tính " + rdg.getText().toString() +"\n"+"Sở thích : "+check1+","+check2+","+check3+","+check4+","+check5+","+sothichkhac, Toast.LENGTH_SHORT).show();
 
